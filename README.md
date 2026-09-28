@@ -1,5 +1,12 @@
 # deterministic-refactor
 
+> **Moved to [living-architecture](https://github.com/MotleyAI/living-architecture).**
+> The `dr-refactor`, `dr-mock-lint` and `dr-compliance` commands ship in the
+> `living-architecture` package (`uv tool install living-architecture`), and the
+> skills are in its `la` Claude Code plugin (`la:deterministic-refactor`,
+> `la:make-diff-compliant`, `la:make-refactor-target-compliant`). This repository
+> is archived and no longer maintained.
+
 Rename and move Python code with automatic import/reference rewriting — and,
 the actual point, a **deterministic check that the refactor left nothing
 dangling**.
